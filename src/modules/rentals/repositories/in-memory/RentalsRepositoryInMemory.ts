@@ -1,5 +1,5 @@
-import { ICreateRentalDTO } from '../../../../dtos/ICreateRentalDTO';
-import { Rental } from '../../entities/Rental';
+import { ICreateRentalDTO } from '../../dtos/ICreateRentalDTO';
+import { Rental } from '../../infra/typeorm/entities/Rental';
 import { IRentalsRepository } from '../IRentalsRepository';
 
 class RentalsRepositoryInMemory implements IRentalsRepository {
